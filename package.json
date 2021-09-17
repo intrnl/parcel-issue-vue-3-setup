@@ -1,0 +1,15 @@
+{
+	"type": "module",
+	"name": "project",
+	"scripts": {
+		"serve": "parcel serve ./src/index.html",
+		"build": "parcel build ./src/index.html"
+	},
+	"dependencies": {
+		"vue": "^3.2.11"
+	},
+	"devDependencies": {
+		"@parcel/transformer-vue": "2.0.0-nightly.2464",
+		"parcel": "2.0.0-nightly.840"
+	}
+}
